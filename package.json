@@ -1,0 +1,27 @@
+{
+  "name": "Ficha-L5R",
+  "version": "1.0.0",
+  "description": "Pagina web que gestiona la ficha de rol (Leyend of 5 Rings). Hecha para aprender a usar React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JrkJesus/Ficha-L5R.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JrkJesus/Ficha-L5R/issues"
+  },
+  "homepage": "https://github.com/JrkJesus/Ficha-L5R#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
