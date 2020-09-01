@@ -1,5 +1,5 @@
 {
-  "name": "Ficha-L5R",
+  "name": "ficha-l5r",
   "version": "1.0.0",
   "description": "Pagina web que gestiona la ficha de rol (Leyend of 5 Rings). Hecha para aprender a usar React.",
   "main": "index.js",
