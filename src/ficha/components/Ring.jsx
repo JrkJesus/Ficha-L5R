@@ -3,15 +3,21 @@ import './Ring.css'
 
 
 
-const Ring = ({attName1, attVal1, attName2, attVal2, attImg, attImgAlt}) => {
+const Ring = ({img, name, attrs}) => {
     return <Fragment>
-        <div className="Attribute_div">
+        {/* <div className="Attribute_div">
             <Attribute labelText={attName1} value={attVal1}/>
             <Attribute labelText={attName2} value={attVal2}/>
+        </div> */}
+
+        <div className="Attribute_div">
+        {attrs.map(attr => {
+            return <Attribute labelText={attr.name} value={attr.value}/>
+        })}
         </div>
         <img 
-            src={attImg}
-            alt={attImgAlt}
+            src={img}
+            alt={name}
             className="Ring_img"/>
     </Fragment>
 }
