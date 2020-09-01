@@ -7,3 +7,17 @@
     text-align: center;
     margin: 2px;
 }
+
+.Ring_img {
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    top: -60px;
+    width: 150px;
+    height: 150px;
+}
+
+/* .Attribute_div {
+    position: relative;
+
+} */

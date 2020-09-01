@@ -1,13 +1,18 @@
 import React, {Fragment} from "react"
 import './Ring.css'
 
-const Ring = () => {
+
+
+const Ring = ({attName1, attVal1, attName2, attVal2, attImg, attImgAlt}) => {
     return <Fragment>
+        <div className="Attribute_div">
+            <Attribute labelText={attName1} value={attVal1}/>
+            <Attribute labelText={attName2} value={attVal2}/>
+        </div>
         <img 
-            src="https://via.placeholder.com/150" 
-            alt="Anillo de tierra" 
-            style={{borderRadius: "50%"}}/>
-        <Attribute labelText="Resistencia" value="2"/>
+            src={attImg}
+            alt={attImgAlt}
+            className="Ring_img"/>
     </Fragment>
 }
 
@@ -24,8 +29,8 @@ const Attribute = ({labelText, value}) => {
             value={value}
             className="Attribute_input-number"
         />
+        <br></br>
     </Fragment>
 }
-
 
 export default Ring
