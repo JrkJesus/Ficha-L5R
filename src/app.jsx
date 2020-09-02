@@ -3,6 +3,8 @@ import ReactDOM from "react-dom"
 import Ring from "./ficha/components/Ring"
 import tierra from "./recursos/tierra.svg"
 import aire from "./recursos/aire.svg"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Container } from "react-bootstrap"
 
 const anillos = [
     {
@@ -17,7 +19,9 @@ const anillos = [
                 name: "VOLUNTAD",
                 value: 2
             }
-        ]
+        ],
+        up: true,
+        left: true
     },
     {
         name: "Aire",
@@ -31,11 +35,13 @@ const anillos = [
                 name: "REFLEJOS",
                 value: 2
             }
-        ]
+        ],
+        up: false,
+        left: true
     },
     {
         name: "Fuego",
-        img: aire,
+        img: tierra,
         attrs: [
             {
                 name: "AGILIDAD",
@@ -45,11 +51,13 @@ const anillos = [
                 name: "INTELIGENCIA",
                 value: 2
             }
-        ]
+        ],
+        up: false,
+        left: false
     },
     {
         name: "Agua",
-        img: aire,
+        img: tierra,
         attrs: [
             {
                 name: "FUERZA",
@@ -59,20 +67,26 @@ const anillos = [
                 name: "PERCEPCION",
                 value: 2
             }
-        ]
+        ],
+        up: true,
+        left: false
     }
 ]
 
 const App = () => {
-    return <Fragment>
+    return <Container>
         <h1> Hello world!! </h1>
         <Ring 
             {...anillos[0]}/>
         <Ring 
             {...anillos[1]}/>
+        <Ring 
+            {...anillos[3]}/>
+        <Ring 
+            {...anillos[2]}/>
         {/* Deconstructor. Es igual que poner
             name = "Tierra" etc */}
-    </Fragment>
+    </Container>
 }
 
 
