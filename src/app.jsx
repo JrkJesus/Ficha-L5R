@@ -4,7 +4,7 @@ import Ring from "./ficha/components/Ring"
 import tierra from "./recursos/tierra.svg"
 import aire from "./recursos/aire.svg"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 const anillos = [
     {
@@ -13,7 +13,7 @@ const anillos = [
         attrs: [
             {
                 name: "RESISTENCIA",
-                value: 2
+                value: 3
             },
             {
                 name: "VOLUNTAD",
@@ -40,6 +40,22 @@ const anillos = [
         left: true
     },
     {
+        name: "Agua",
+        img: tierra,
+        attrs: [
+            {
+                name: "FUERZA",
+                value: 2
+            },
+            {
+                name: "PERCEPCION",
+                value: 2
+            }
+        ],
+        up: true,
+        left: false
+    },
+    {
         name: "Fuego",
         img: tierra,
         attrs: [
@@ -55,38 +71,31 @@ const anillos = [
         up: false,
         left: false
     },
-    {
-        name: "Agua",
-        img: tierra,
-        attrs: [
-            {
-                name: "FUERZA",
-                value: 2
-            },
-            {
-                name: "PERCEPCION",
-                value: 2
-            }
-        ],
-        up: true,
-        left: false
-    }
 ]
 
 const App = () => {
-    return <Container>
+    return <Fragment>
         <h1> Hello world!! </h1>
-        <Ring 
-            {...anillos[0]}/>
-        <Ring 
-            {...anillos[1]}/>
-        <Ring 
-            {...anillos[3]}/>
-        <Ring 
-            {...anillos[2]}/>
+        <Row style={{width: "50%", gridColumnGap: "5px"}}>
+            <Col >
+                    <Ring {...anillos[0]}/>
+            </Col>
+            <Col >
+                    <Ring {...anillos[2]}/>
+            </Col>
+        </Row>
+        <Row style={{width: "50%", gridColumnGap: "50px"}}>
+            <Col >
+                    <Ring {...anillos[1]}/>
+            </Col>
+            <Col> 
+                    <Ring {...anillos[3]}/>
+            </Col>
+        </Row>
+        
         {/* Deconstructor. Es igual que poner
             name = "Tierra" etc */}
-    </Container>
+    </Fragment>
 }
 
 
