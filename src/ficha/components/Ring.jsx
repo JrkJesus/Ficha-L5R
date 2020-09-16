@@ -26,7 +26,7 @@ const Attribute = ({labelText, value}) => {
             type="number"
             name={"value-" + labelText}
             id={"value-" + labelText}
-            value={value}
+            defaultValue={value}
             className="Attribute_input-number"
         />
         <br></br>
