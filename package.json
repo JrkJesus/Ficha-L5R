@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/JrkJesus/Ficha-L5R#readme",
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "react-table": "^7.5.0",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"

@@ -1,0 +1,14 @@
+.LifeBox_Table-size-position {
+    width: 350px;
+}
+.blackBack {
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+}
+.grayBack {
+    background-color: lightgrey;
+}
+.whiteBack, .grayBack {
+    border: solid black 1px !important;
+}
