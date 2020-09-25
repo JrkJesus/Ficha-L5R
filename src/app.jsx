@@ -14,9 +14,20 @@ const attrs = [
 ]
 
 const App = () => {
-    return <div style={{width: "30%"}}>
-        <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/150" alingLeft={true} />
-        <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/150" alingLeft={false} />
+    return <div >
+        <div style={{width: "40%", display: "flex", justifyContent:"center"}}>
+            <div style={{width: "85%", height: "150px", display: "flex", flexFlow: "space-between"}}>
+                <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/300" alingLeft={true} />
+                <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/300" alingLeft={false} />
+            </div>
+        </div>
+        <div style={{width: "40%", height: "150px", display: "flex", flexFlow: "space-between"}}>
+            <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/300" alingLeft={true} />
+            <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/300" alingLeft={false} />
+        </div>
+        <div style={{width: "40%", height: "150px", display: "flex", flexFlow: "space-between"}}>
+            <Ring attrsValues={attrs} imgSrc="https://via.placeholder.com/300" alingLeft={false} />
+        </div>
     </div>
 }
 

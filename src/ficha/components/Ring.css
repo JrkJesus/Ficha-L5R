@@ -10,20 +10,46 @@
     font-size: smaller;
 }
 
-.Ring-mapDiv-2nd {
-    margin-left: -15px;
-}
-.Ring-mapDiv-1st {
-    margin-left: 10px;
+.Ring_mapDiv-right {
+    margin-right: 15px;
+    float: right;
 }
 
-.Ring_img-AttrFormat {
+.Ring_mapDiv-left {
+    margin-left: 15px;
+    float: left
+}
+
+.Ring_mapDiv-flex {
+    display: flex;
+}
+
+.Ring_img-round {
     border-radius: 50%;
-    width: 50%;
+    height: 100%;
+    width: auto;
 }
 
-.Ring_div-AttrFormat {
-    width: 50%;
+.Ring_img-right {
+    float: right;
+}
+
+.Ring_img-left {
+    float: left;
+}
+
+.Ring_divImg-position {
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Ring_divAttr-right { 
+    float: right
+}
+
+.Ring_divAttr-format {
+    width: 40%;
     height: 100%;
     display: inline-block;
     vertical-align: top;
@@ -39,6 +65,7 @@
 .Ring_label-textRight {
     text-align: right;
     margin-top: 10px;
+    margin-right: 5px;
 }
 
 .Ring_label-textLeft {
