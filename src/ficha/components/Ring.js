@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react'
 import Attribute from './Attribute'
+import Points from './Points'
 import './Ring.css' 
 
 const Ring = ({attributes, points, imgSrc, alingLeft })  => {
@@ -19,8 +20,8 @@ const Ring = ({attributes, points, imgSrc, alingLeft })  => {
                     <Attribute attrs={attributes} flexDirection="row" direction="Left" />
                 </div> 
             ) || 
-            ( !attributes && 
-               <h1>Point</h1>
+            ( points && 
+                <Points {...points} />
             )
         }
     </div>

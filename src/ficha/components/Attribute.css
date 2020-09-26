@@ -10,23 +10,22 @@
 
 .Attribute_mapDiv-flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .Attribute_label-AttrFormat {
-    width: 50%;    
+    width: 70%;    
     display: inline-block;
 }
 
 .Attribute_label-textRight {
     text-align: right;
-    margin-top: 10px;
-    margin-right: 5px;
 }
 
 .Attribute_label-textLeft {
     text-align: left;
-    margin-top: 10px;
 }
 
 .Attribute_inputNumber-Round {
