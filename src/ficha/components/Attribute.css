@@ -1,0 +1,41 @@
+.Attribute_mapDiv-Right {
+    margin-right: 15px;
+    float: right;
+}
+
+.Attribute_mapDiv-Left {
+    margin-left: 15px;
+    float: left
+}
+
+.Attribute_mapDiv-flex {
+    display: flex;
+}
+
+
+.Attribute_label-AttrFormat {
+    width: 50%;    
+    display: inline-block;
+}
+
+.Attribute_label-textRight {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.Attribute_label-textLeft {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.Attribute_inputNumber-Round {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: smaller;
+}

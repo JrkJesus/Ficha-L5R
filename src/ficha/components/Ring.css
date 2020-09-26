@@ -1,29 +1,4 @@
 
-.Ring_inputNumber-Round {
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: center;
-    border: 1px solid black;
-    font-size: smaller;
-}
-
-.Ring_mapDiv-right {
-    margin-right: 15px;
-    float: right;
-}
-
-.Ring_mapDiv-left {
-    margin-left: 15px;
-    float: left
-}
-
-.Ring_mapDiv-flex {
-    display: flex;
-}
-
 .Ring_img-round {
     border-radius: 50%;
     height: 100%;
@@ -55,20 +30,4 @@
     vertical-align: top;
     margin-top: 20px;
     font-size: small;
-}
-
-.Ring_label-AttrFormat {
-    width: 50%;    
-    display: inline-block;
-}
-
-.Ring_label-textRight {
-    text-align: right;
-    margin-top: 10px;
-    margin-right: 5px;
-}
-
-.Ring_label-textLeft {
-    text-align: left;
-    margin-top: 10px;
 }

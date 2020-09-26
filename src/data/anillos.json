@@ -1,0 +1,43 @@
+{
+    "tierra": {
+        "displayName": "Tierra",
+        "imgSrc": "https://via.placeholder.com/300",
+        "attributes": {
+            "Fuerza": 2,
+            "Constitución": 2
+        }
+    },
+    "aire": {
+        "displayName": "Aire",
+        "imgSrc": "https://via.placeholder.com/300",
+        "attributes": {
+            "Fuerza": 2,
+            "Constitución": 2
+        }
+    },
+    "fuego": {
+        "displayName": "Fuego",
+        "imgSrc": "https://via.placeholder.com/300",
+        "attributes": {
+            "Fuerza": 2,
+            "Constitución": 2
+        }
+    },
+    "agua": {
+        "displayName": "Agua",
+        "imgSrc": "https://via.placeholder.com/300",
+        "attributes": {
+            "Fuerza": 2,
+            "Constitución": 2
+        }
+    },
+    "vacio": {
+        "displayName": "Vacio",
+        "imgSrc": "https://via.placeholder.com/300",
+        "points": {
+            "total": 10,
+            "canUse": 5,
+            "used": 1
+        }
+    }
+}
