@@ -1,0 +1,8 @@
+.AllRings_div-row {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    min-width: 650px;
+    flex-flow: space-between;
+    height: 150px;
+}
