@@ -3,41 +3,46 @@
         "displayName": "Tierra",
         "imgSrc": "https://via.placeholder.com/300",
         "attributes": {
-            "Fuerza": 2,
-            "Constitución": 2
-        }
+            "Resistencia": 2,
+            "Voluntad": 2
+        },
+        "color": "#55664F"
     },
     "aire": {
         "displayName": "Aire",
         "imgSrc": "https://via.placeholder.com/300",
         "attributes": {
-            "Fuerza": 2,
-            "Constitución": 2
-        }
+            "Percepción": 2,
+            "Fuerza": 2
+        },
+        "color": "#749EBC"
     },
     "fuego": {
         "displayName": "Fuego",
         "imgSrc": "https://via.placeholder.com/300",
         "attributes": {
-            "Fuerza": 2,
-            "Constitución": 2
-        }
+            "Inteligencia": 2,
+            "Agilidad": 2
+        },
+        "color":"#C92C19"
     },
     "agua": {
         "displayName": "Agua",
         "imgSrc": "https://via.placeholder.com/300",
         "attributes": {
-            "Fuerza": 2,
-            "Constitución": 2
-        }
+            "Consciencia": 2,
+            "Reflejos": 2
+        },
+        "color": "#5E6C86"
     },
     "vacio": {
-        "displayName": "Vacio",
+        "displayName": "Vacío",
         "imgSrc": "https://via.placeholder.com/300",
         "points": {
             "total": 10,
             "canUse": 5,
             "used": 1
-        }
+        },
+        "color": "#616161"
     }
 }

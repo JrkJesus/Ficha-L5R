@@ -6,17 +6,15 @@ import Ring from '../components/Ring'
 const AllRings = () => {
     return <Fragment>
         <div className="AllRings_div-row">
-            <div style={{width: "85%", height: "150px", display: "flex", flexFlow: "space-between"}}>
-                <Ring {...anillos.tierra} alingLeft={true} />
-                <Ring {...anillos.aire} alingLeft={false} />
-            </div>
+            <Ring {...anillos.tierra} row={1} align={{top: true, left: true}} />
+            <Ring {...anillos.aire} row={1} align={{top: true, left: false}} />
         </div>
         <div className="AllRings_div-row">
-            <Ring {...anillos.agua} alingLeft={true} />
-            <Ring {...anillos.fuego} alingLeft={false} />
+            <Ring {...anillos.agua} row={2} align={{top: false, left: true}} />
+            <Ring {...anillos.fuego} row={2} align={{top: false, left: false}} />
         </div>
-        <div className="AllRings_div-row">
-              <Ring {...anillos.vacio} alingLeft={false} />
+        <div className="AllRings_div-row" style={{marginTop: "-20px"}}>
+            <Ring {...anillos.vacio} row={3} align={{top: false, left: false}} />
         </div>
     </Fragment>
 }
